@@ -1,0 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+#hero {
+    background-image: url("../images/hero.pn");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 75vh;
+}
+
+.nav-link.active {
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: darkslategray!important;
+    font-size: 20px;
+   
+}
+
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding:5%;
+}
+nav{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item {
+   justify-items: flex-end;
+}
+
+nav .hamburger {
+    width:180px ;
+    text-align: right;
+}
+.footerblockquote-footer {
+   justify-content: flex-end;
+}
+.card-deck {
+    justify-content: space-around 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:60%;
+    background-color:rebeccapurple;
+}
+.blockquote-footer {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:seashell;
+   justify-items: flex-end;
+
+}
+.jumbotron p {
+    text-align: center;
+    color:ivory;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    }
+
+.jumbotron h1 {
+    color:white;
+    font-weight: 1000;
+font-family:cursive;
+}
+.paragraph {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family:sans-serif
+}
+.form-group {
+    padding-left: 30px;
+}
